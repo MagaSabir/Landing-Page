@@ -102,22 +102,46 @@ span {
 }
 
 .clients {
-	margin-left: 144px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .clients p {
 	margin-top: 8px;
-	margin-bottom: 16px;
+	margin-bottom: 26px;
 	color: #717171;
 }
 
 h2 {
 	color: #4D4D4D;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .icons {
 	display: flex;
 	gap: 136px;
+}
+
+.community-section {
+	margin-top: 75px;
+	text-align: center;
+}
+
+.community-section p {
+	padding-top: 8px;
+	margin-bottom: 26px;
+	color: #717171;
+}
+
+.community-card {
+	display: flex;
+	justify-content: space-around;
+	gap: 127px;
+}
+
+.card {
+	text-align: center;
+	color: #717171;
 }
