@@ -133,15 +133,46 @@ h2 {
 	padding-top: 8px;
 	margin-bottom: 26px;
 	color: #717171;
+	text-align: center;
 }
 
 .community-card {
 	display: flex;
-	justify-content: space-around;
-	gap: 127px;
+	justify-content: space-evenly;
 }
 
 .card {
 	text-align: center;
 	color: #717171;
+}
+
+.body {
+	display: flex;
+	margin-top: 60px;
+	justify-content: space-evenly;
+}
+
+.body-card {
+	margin-top: 64px;
+}
+
+.body-card p {
+	color: #717171;
+	padding-top: 16px;
+	padding-bottom: 32px;
+}
+
+.achievements {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+.counts-card {
+	display: flex;
+}
+
+.m-cards {
+	display: flex;
+	gap: 20px;
 }
