@@ -170,9 +170,16 @@ h2 {
 
 .counts-card {
 	display: flex;
+	margin-bottom: 40px;
 }
 
-.m-cards {
+.b-cards {
+	display: flex;
+	gap: 60px;
+}
+
+.members {
 	display: flex;
 	gap: 20px;
+	width: 200px;
 }
